@@ -5,9 +5,7 @@
 
 }
 
-.let-help {
-    color: white;
-}
+
 
 .working {
     color: white;
@@ -29,10 +27,9 @@ P {
     color: black
 }
 
-
-
-
-
+.let-help {
+    color: white;
+}
 
 .full-width img {
     width: 100%;
@@ -47,11 +44,8 @@ P {
     font-weight: 600;
 
 
+
 }
-
-
-
-
 
 .top-banner {
     background-image: url(images/donation13.jpg);
@@ -61,9 +55,7 @@ P {
     height: 80vh;
     width: 100%;
     text-align: center;
-
-
-
+    color: white;
 
 }
 
@@ -73,5 +65,9 @@ P {
 }
 
 footer {
+    text-align: center;
+}
+
+.donate-today {
     text-align: center;
 }
