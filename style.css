@@ -43,9 +43,24 @@ P {
     color: white;
     font-weight: 600;
 
+}
+
+
+.flexible-container {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 
 }
+
+
+
+
+
+
+
 
 .top-banner {
     background-image: url(images/donation13.jpg);
@@ -59,15 +74,17 @@ P {
 
 }
 
-.flexible-container {
-    display: flex;
-    margin-bottom: 150px;
-}
 
-footer {
+
+
+.donate-today {
     text-align: center;
 }
 
-.donate-today {
+
+
+
+
+footer {
     text-align: center;
 }
