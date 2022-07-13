@@ -2,10 +2,7 @@
     font-family: 'Gentium Book Plus', serif;
     margin: 0;
     padding: 0;
-
 }
-
-
 
 .working {
     color: white;
@@ -44,12 +41,7 @@ P {
     font-weight: 600;
     color: white;
 
-
-
-
-
 }
-
 
 .flexible-container {
     display: flex;
@@ -59,36 +51,51 @@ P {
     align-items: center;
     justify-content: center;
 
-
 }
 
 .amount {
-    height: 250px;
-    width: 220px;
+    height: 80px;
+    width: 100px;
     margin: 20px;
     padding: 20px;
-    box-shadow: 10px 10px;
-    border: 2px solid red;
-    border-radius: 50px 20px
+    box-shadow: 5px 5px lightyellow;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: bisque;
+    font-weight: 700;
+
+}
+
+.margin-top {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px lightblue;
+    background-color: rgb(180, 237, 180);
+    margin-left: 40%;
+    margin-right: 40%;
+
 }
 
 #food {
     height: 250px;
     width: 220px;
-    margin: 20px;
-    padding: 20px;
-    box-shadow: 10px 10px;
+    margin: 40px;
+    padding: 40px;
+    border-top: 20px;
+    box-shadow: 5px 5px lightskyblue;
     background-color: burlywood;
     background-image: url(icons/food.png);
     background-repeat: no-repeat;
+
 }
 
 #shelter {
     height: 250px;
     width: 220px;
     margin: 20px;
-    padding: 20px;
-    box-shadow: 10px 10px;
+    padding: 40px;
+    box-shadow: 5px 5px lightslategrey;
     background-color: darkkhaki;
     background-image: url(icons/shelter.png);
     background-repeat: no-repeat;
@@ -98,17 +105,13 @@ P {
     height: 250px;
     width: 220px;
     margin: 20px;
-    padding: 20px;
-    box-shadow: 10px 10px;
+    padding: 40px;
+    box-shadow: 5px 5px lightpink;
     background-color: lightgreen;
     background-image: url(icons/Frame-1.png);
     background-repeat: no-repeat;
 
 }
-
-
-
-
 
 .top-banner {
     background-image: url(images/donation13.jpg);
@@ -119,11 +122,9 @@ P {
     width: 100%;
     text-align: center;
     color: white;
+    padding-top: 5%;
 
 }
-
-
-
 
 .donate-today {
     text-align: center;
@@ -136,6 +137,7 @@ P {
 
 .lives-depend {
     display: flex;
+    padding: 40px;
 
 }
 
@@ -149,11 +151,25 @@ P {
     width: 100%;
 }
 
-
-
-
-
-
-footer {
+.get-updates {
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    box-shadow: 5px 5px lightgray;
+    background-color: rgb(180, 237, 180);
+    margin-left: 40%;
+    margin-right: 40%;
+
+}
+
+.footer {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 700;
+    box-shadow: 20px 20px 20px 20px lightgray;
+    background-color: rgb(237, 167, 167);
+
 }
